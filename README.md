@@ -1,6 +1,7 @@
----
 
 # Wrestle-R  
+
+![github-user-contribution](https://github.com/user-attachments/assets/f388bfb1-7ea9-41a2-876e-4957a013fe78)---
 
 Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering student passionate about software development. I specialize in crafting beautiful and functional frontends while building intelligent backends.  
 
