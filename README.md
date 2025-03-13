@@ -41,7 +41,7 @@ Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering stud
 ✅ [**Supabase To-Do List**](https://github.com/wrestle-R/To-Do-List-frontend-) – A simple to-do list app using Supabase as the database.  
 ✅ [**MERN To-Do List**](https://github.com/wrestle-R/To-do-list) – A full-fledged to-do list built with MongoDB, Express.js, React, and Node.js.  
 
-### 🚶 [**Walking Project**](https://github.com/wrestle-R/walking-project)  
+### 🚶 [**Walking Project**][(https://github.com/wrestle-R/walking-project)](https://wrestle-r.github.io/walking-project/)  
 A web app for documenting the **Mumbai Sustainability Center's** work. It surveys Mumbai's footpaths, maps issues, and submits reports to **BMC** for reference.  
 
 ### 🍕 [**Dany's Pizza**](https://github.com/wrestle-R/Dany-s-Pizza)  
