@@ -35,29 +35,78 @@ Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering stud
 
 <br /> 
 
-## 📌 Notable Projects  
+## 🚀 Notable Projects  
 
-### 📝 To-Do Lists  
-✅ [**Supabase To-Do List**](https://github.com/wrestle-R/To-Do-List-frontend-) – A simple to-do list app using Supabase as the database.  
-✅ [**MERN To-Do List**](https://github.com/wrestle-R/To-do-list) – A full-fledged to-do list built with MongoDB, Express.js, React, and Node.js.  
+<br />
 
-### 🚶 [**Walking Project**](https://wrestle-r.github.io/walking-project/)  
-A web app for documenting the **Mumbai Sustainability Center's** work. It surveys Mumbai's footpaths, maps issues, and submits reports to **BMC** for reference.  
-
-### 🍕 [**Dany's Pizza**](https://github.com/wrestle-R/Dany-s-Pizza)  
-A **full-stack pizza shop website** with a menu, chef section, event booking, and other cool features.  
-
-### 🚗 [**Car Showroom**](https://github.com/wrestle-R/Car-Showroom)  
-A web app that fetches car data from an API and displays the best cars based on user preferences.  
-
-### ☀️ [**Solar System (Three.js)**](https://github.com/wrestle-R/Solar-System)  
-An interactive **solar system simulation** built using **Three.js**.  
-
-### ☕ [**Etaara Coffee House (BnB 24)**](https://github.com/wrestle-R/Bnb-24)  
-Developed for **Bit and Build 24**, this project provides a seamless coffee house experience.  
-
-### ⚽ [**Role Clipboard**](https://github.com/wrestle-R/RoleClipboard)  
-A website that helps users determine their **best football position** based on a set of questions.  
+<div align="left">
+  <table>
+    <tr>
+      <td width="50%" align="left" valign="top">
+        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
+          <h3><a href="http://chatmasala.vercel.app" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Chat App 💬</a></h3>
+          <p>A modern chat app featuring real-time messaging, user search, and private conversations. Includes public chat, DMs, and room creation.</p>
+          <p><strong>Tech Stack:</strong> React, Firebase, Tailwind CSS</p>
+        </div>
+      </td>
+      <td width="50%" align="left" valign="top">
+        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
+          <h3><a href="https://wrestle-r.github.io/walking-project/" style="color: #58a6ff; text-decoration: none; font-weight: bold;">The Walking Project 🌱</a></h3>
+          <p>A web app for documenting the Mumbai Sustainability Center’s work, mapping footpath issues, and submitting reports to BMC.</p>
+          <p><strong>Tech Stack:</strong> React, Tailwind CSS, Firebase</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="left" valign="top">
+        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
+          <h3><a href="https://github.com/wrestle-R/To-Do-List-frontend-" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Supabase To-Do List ✅</a></h3>
+          <p>A simple to-do list app using Supabase as the database.</p>
+          <p><strong>Tech Stack:</strong> React, Supabase, Tailwind CSS</p>
+        </div>
+      </td>
+      <td width="50%" align="left" valign="top">
+        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
+          <h3><a href="https://github.com/wrestle-R/To-do-list" style="color: #58a6ff; text-decoration: none; font-weight: bold;">MERN To-Do List ✅</a></h3>
+          <p>A full-fledged to-do list built with MongoDB, Express.js, React, and Node.js.</p>
+          <p><strong>Tech Stack:</strong> MERN Stack</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="left" valign="top">
+        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
+          <h3><a href="https://github.com/wrestle-R/Dany-s-Pizza" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Dany's Pizza 🍕</a></h3>
+          <p>A full-stack pizza shop website with a menu, chef section, event booking, and more.</p>
+          <p><strong>Tech Stack:</strong> MERN Stack</p>
+        </div>
+      </td>
+      <td width="50%" align="left" valign="top">
+        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
+          <h3><a href="https://github.com/wrestle-R/Car-Showroom" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Car Showroom 🚗</a></h3>
+          <p>A web app that fetches car data from an API and displays the best options based on user preferences.</p>
+          <p><strong>Tech Stack:</strong> NEXT, API Integration, Tailwind CSS</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="left" valign="top">
+        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
+          <h3><a href="https://github.com/wrestle-R/Solar-System" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Solar System ☀️</a></h3>
+          <p>An interactive solar system simulation built using Three.js.</p>
+          <p><strong>Tech Stack:</strong> Three.js, JavaScript</p>
+        </div>
+      </td>
+      <td width="50%" align="left" valign="top">
+        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
+          <h3><a href="https://github.com/wrestle-R/Bnb-24" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Etaara Coffee House ☕</a></h3>
+          <p>Developed for Bit and Build 24, this project provides a seamless coffee house experience.</p>
+          <p><strong>Tech Stack:</strong> React and Gemini api</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 📢 Connect with Me  
 📸 **Instagram:** [@russeldp10](https://www.instagram.com/russeldp10/)  
