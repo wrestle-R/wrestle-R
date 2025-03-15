@@ -1,7 +1,6 @@
-
 # Wrestle-R  
 
-![github-user-contribution](https://github.com/user-attachments/assets/f388bfb1-7ea9-41a2-876e-4957a013fe78)---
+![github-user-contribution](https://github.com/user-attachments/assets/f388bfb1-7ea9-41a2-876e-4957a013fe78)  
 
 Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering student passionate about software development. I specialize in crafting beautiful and functional frontends while building intelligent backends.  
 
@@ -17,7 +16,7 @@ Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering stud
   <img src="https://img.shields.io/badge/-React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
   <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+<!--   <img src="https://img.shields.io/badge/-Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" /> -->
   <!-- Backend -->
   <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
@@ -33,85 +32,68 @@ Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering stud
   <img src="https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </p>
 
-<br /> 
 
 ## 🚀 Notable Projects  
+*(A selection of my best works!)*  
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="http://chatmasala.vercel.app">Chat Masala 💬</a></h3>
+      <p>A modern chat app featuring real-time messaging, user search, and private conversations.</p>
+      <p><strong>Tech Stack:</strong> React, Firebase, Websockets, Tailwind CSS</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://wrestle-r.github.io/walking-project/">The Walking Project 🌱</a></h3>
+      <p>A web app for documenting the Mumbai Sustainability Center’s work, mapping footpath issues, and submitting reports to BMC.</p>
+      <p><strong>Tech Stack:</strong> React, Tailwind CSS, Firebase</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/wrestle-R/To-Do-List-frontend-">Supabase To-Do List ✅</a></h3>
+      <p>A simple to-do list app using Supabase as the database.</p>
+      <p><strong>Tech Stack:</strong> React, Supabase, Tailwind CSS</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/wrestle-R/To-do-list">MERN To-Do List ✅</a></h3>
+      <p>A full-fledged to-do list built with MongoDB, Express.js, React, and Node.js.</p>
+      <p><strong>Tech Stack:</strong> MERN Stack</p>
+    </td>
+  </tr>
+</table>
 
 <br />
 
-<div align="left">
-  <table>
-    <tr>
-      <td width="50%" align="left" valign="top">
-        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
-          <h3><a href="http://chatmasala.vercel.app" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Chat App 💬</a></h3>
-          <p>A modern chat app featuring real-time messaging, user search, and private conversations. Includes public chat, DMs, and room creation.</p>
-          <p><strong>Tech Stack:</strong> React, Firebase, Tailwind CSS</p>
-        </div>
-      </td>
-      <td width="50%" align="left" valign="top">
-        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
-          <h3><a href="https://wrestle-r.github.io/walking-project/" style="color: #58a6ff; text-decoration: none; font-weight: bold;">The Walking Project 🌱</a></h3>
-          <p>A web app for documenting the Mumbai Sustainability Center’s work, mapping footpath issues, and submitting reports to BMC.</p>
-          <p><strong>Tech Stack:</strong> React, Tailwind CSS, Firebase</p>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="left" valign="top">
-        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
-          <h3><a href="https://github.com/wrestle-R/To-Do-List-frontend-" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Supabase To-Do List ✅</a></h3>
-          <p>A simple to-do list app using Supabase as the database.</p>
-          <p><strong>Tech Stack:</strong> React, Supabase, Tailwind CSS</p>
-        </div>
-      </td>
-      <td width="50%" align="left" valign="top">
-        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
-          <h3><a href="https://github.com/wrestle-R/To-do-list" style="color: #58a6ff; text-decoration: none; font-weight: bold;">MERN To-Do List ✅</a></h3>
-          <p>A full-fledged to-do list built with MongoDB, Express.js, React, and Node.js.</p>
-          <p><strong>Tech Stack:</strong> MERN Stack</p>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="left" valign="top">
-        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
-          <h3><a href="https://github.com/wrestle-R/Dany-s-Pizza" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Dany's Pizza 🍕</a></h3>
-          <p>A full-stack pizza shop website with a menu, chef section, event booking, and more.</p>
-          <p><strong>Tech Stack:</strong> MERN Stack</p>
-        </div>
-      </td>
-      <td width="50%" align="left" valign="top">
-        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
-          <h3><a href="https://github.com/wrestle-R/Car-Showroom" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Car Showroom 🚗</a></h3>
-          <p>A web app that fetches car data from an API and displays the best options based on user preferences.</p>
-          <p><strong>Tech Stack:</strong> NEXT, API Integration, Tailwind CSS</p>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="left" valign="top">
-        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
-          <h3><a href="https://github.com/wrestle-R/Solar-System" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Solar System ☀️</a></h3>
-          <p>An interactive solar system simulation built using Three.js.</p>
-          <p><strong>Tech Stack:</strong> Three.js, JavaScript</p>
-        </div>
-      </td>
-      <td width="50%" align="left" valign="top">
-        <div style="padding: 20px; border-radius: 12px; margin: 10px; background-color: #21262d; border: 1px solid #30363d;">
-          <h3><a href="https://github.com/wrestle-R/Bnb-24" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Etaara Coffee House ☕</a></h3>
-          <p>Developed for Bit and Build 24, this project provides a seamless coffee house experience.</p>
-          <p><strong>Tech Stack:</strong> React and Gemini api</p>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
+## 📊 GitHub Stats  
+
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=wrestle-R&show_icons=true&theme=tokyonight&hide=stars&count_private=true" width="49%" height="195px"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=wrestle-R&layout=compact&theme=tokyonight&langs_count=6" width="49%" height="195px"/>
+</p>
+
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wrestle-R&theme=tokyo-night" width="98%" />
+</p>
+
+
+<br />
 
 ## 📢 Connect with Me  
-📸 **Instagram:** [@russeldp10](https://www.instagram.com/russeldp10/)  
-💼 **LinkedIn:** [Russel Daniel Paul](https://www.linkedin.com/in/russel-daniel-970b8a303/)  
-🐦 **Twitter:** [@Russeldp10](https://x.com/Russeldp10)  
+<p align="center">
+  <a href="mailto:russeldanielpaul@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/russel-daniel-970b8a303">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://x.com/Russeldp10">
+    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/russeldp10">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</p>
 
 ---
-
