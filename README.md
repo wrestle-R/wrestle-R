@@ -94,6 +94,10 @@ Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering stud
   <a href="https://instagram.com/russeldp10">
     <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
+  <a href="https://devfolio.co/@russeldp10">
+    <img src="https://img.shields.io/badge/-Devfolio-3333cc?style=for-the-badge&logo=dev.to&logoColor=white" />
+  </a>
 </p>
+
 
 ---
