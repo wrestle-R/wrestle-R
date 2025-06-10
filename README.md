@@ -4,7 +4,7 @@
 
 Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering student passionate about software development. I specialize in crafting beautiful and functional frontends while building intelligent backends.  
 
-## 💻 Technologies & Tools  
+## 💻 TechStack 
 <p align="center">
   <!-- Languages -->
   <img src="https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
