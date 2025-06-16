@@ -5,7 +5,7 @@
 
 Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering student passionate about software development. I specialize in crafting beautiful and functional frontends while building intelligent backends.  
 
-## 💻 TechStack 
+## TechStack 
 <p align="center">
   <!-- Languages -->
   <img src="https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
@@ -34,7 +34,7 @@ Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering stud
 </p>
 
 
-## 🚀 Notable Projects  
+## Notable Projects  
 *(A selection of my best works!)*  
 
 <table>
@@ -66,7 +66,7 @@ Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering stud
 
 <br />
 
-## 📊 GitHub Stats  
+## GitHub Stats  
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=wrestle-R&show_icons=true&theme=tokyonight&hide=stars&count_private=true" width="49%" height="195px"/>
@@ -81,7 +81,7 @@ Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering stud
 
 <br />
 
-## 📢 Connect with Me  
+##  Connect with Me  
 <p align="center">
   <a href="mailto:russeldanielpaul@gmail.com">
     <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
