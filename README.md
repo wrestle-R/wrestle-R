@@ -51,12 +51,12 @@ Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering stud
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/wrestle-R/To-Do-List-frontend-">Supabase To-Do List ✅</a></h3>
+      <h3><a href="https://github.com/wrestle-R/To-Do-List-frontend-">Clarity</a></h3>
       <p>A simple to-do list app using Supabase as the database.</p>
       <p><strong>Tech Stack:</strong> React, Supabase, Tailwind CSS</p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/wrestle-R/To-do-list">MERN To-Do List ✅</a></h3>
+      <h3><a href="https://github.com/wrestle-R/To-do-list">Trippeer</a></h3>
       <p>A full-fledged to-do list built with MongoDB, Express.js, React, and Node.js.</p>
       <p><strong>Tech Stack:</strong> MERN Stack</p>
     </td>
