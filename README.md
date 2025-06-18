@@ -42,44 +42,6 @@
 </p>
 
 
-## Notable Projects  
-*(A selection of my best works!)*  
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://wordle-nine-snowy.vercel.app/">Bible Wordle</a></h3>
-      <p>Biblical twist on Wordle with scripture-based words.</p>
-      <p><strong>Tech Stack:</strong> React, JavaScript, CSS</p>
-      <a href="https://wordle-nine-snowy.vercel.app/">
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://watchlist-a9568.web.app/">Watchlist</a></h3>
-      <p>Movie tracker with genre-based lists and OMDb API.</p>
-      <p><strong>Tech Stack:</strong> React, Tailwind, Supabase, OMDb API</p>
-      <a href="https://watchlist-a9568.web.app/">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://wrestle-r.github.io/walking-project/">Walking Project</a></h3>
-      <p>Surveyed and reported on Mumbai's footpaths with data-driven insights.</p>
-      <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Data Analysis</p>
-      <a href="https://wrestle-r.github.io/walking-project/">
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://certifiyo.vercel.app/">Trippeer</a></h3>
-      <p>AI travel planner recommending destinations based on User preferences.</p>
-      <p><strong>Tech Stack:</strong> React, Node.js, MongoDB, OpenWeather API</p>
-      <a href="https://certifiyo.vercel.app/">
-      </a>
-    </td>
-  </tr>
-</table>
-
 
 <br />
 
@@ -96,7 +58,6 @@
 </p>
 
 
-<br />
 
 ##  Connect with Me  
 <p align="center">
