@@ -1,4 +1,10 @@
-# Wrestle-R  
+<!-- Typing SVG -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=1ACD55&center=true&width=500&lines=HHi%2C+I'm+Russel+aka+Wrestle-R!" alt="Typing SVG" />
+  </a>
+</div>
+
 
 ![snake gif](https://github.com/wrestle-R/wrestle-R/blob/output/github-snake-dark.svg)
 
