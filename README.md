@@ -31,6 +31,10 @@ Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering stud
   <img src="https://img.shields.io/badge/-Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
   <img src="https://img.shields.io/badge/-JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white" />
   <img src="https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/NextAuth.js-blueviolet?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sanity.io-ff4747?style=for-the-badge&logo=sanity&logoColor=white" />
+
+  
 </p>
 
 
