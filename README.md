@@ -9,8 +9,6 @@
 ![snake gif](https://github.com/wrestle-R/wrestle-R/blob/output/github-snake-dark.svg)
 
 
-Welcome to my GitHub! I'm **Russel Daniel Paul**, a second-year engineering student passionate about software development. I specialize in crafting beautiful and functional frontends while building intelligent backends.  
-
 ## TechStack 
 <p align="center">
   <!-- Languages -->
