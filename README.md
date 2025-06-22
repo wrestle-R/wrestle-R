@@ -1,8 +1,8 @@
 <!-- Typing SVG -->
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=1ACD55&center=true&width=500&lines=HHi%2C+I'm+Russel+aka+Wrestle-R!" alt="Typing SVG" />
-  </a>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=1ABC9C&center=true&width=500&lines=HHi%2C+I'm+Russel+aka+Wrestle-R!" alt="Typing SVG" />
+</a>
 </div>
 
 
@@ -48,13 +48,13 @@
 ## GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=wrestle-R&show_icons=true&theme=tokyonight&hide=stars&count_private=true" width="49%" height="195px"/>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=wrestle-R&layout=compact&theme=tokyonight&langs_count=6" width="49%" height="195px"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=wrestle-R&show_icons=true&hide=stars&count_private=true&theme=tokyonight&bg_color=0d1117&title_color=1ABC9C&icon_color=1ABC9C&text_color=39c5bb" width="49%" height="195px"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=wrestle-R&layout=compact&langs_count=6&theme=tokyonight&bg_color=0d1117&title_color=1ABC9C&icon_color=1ABC9C&text_color=39c5bb" width="49%" height="195px"/>
 </p>
 
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wrestle-R&theme=tokyo-night" width="98%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wrestle-R&bg_color=0d1117&color=1ABC9C&line=1ABC9C&point=39c5bb&area=true&theme=github-compact" width="98%" />
 </p>
 
 
