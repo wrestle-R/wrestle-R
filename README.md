@@ -47,9 +47,9 @@
 
 ## GitHub Stats  
 
-<p align="center" style="display: flex; gap: 0; align-items: center;">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=wrestle-R&show_icons=true&hide=stars&count_private=true&theme=tokyonight&bg_color=0d1117&title_color=1ABC9C&icon_color=1ABC9C&text_color=39c5bb" height="195px"/>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=wrestle-R&layout=compact&langs_count=6&theme=tokyonight&bg_color=0d1117&title_color=1ABC9C&icon_color=1ABC9C&text_color=39c5bb" height="195px"/>
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=wrestle-R&show_icons=true&hide=stars&count_private=true&theme=tokyonight&bg_color=0d1117&title_color=1ABC9C&icon_color=1ABC9C&text_color=39c5bb" width="49%" height="195px"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=wrestle-R&layout=compact&langs_count=6&theme=tokyonight&bg_color=0d1117&title_color=1ABC9C&icon_color=1ABC9C&text_color=39c5bb" width="49%" height="195px"/>
 </p>
 
 
