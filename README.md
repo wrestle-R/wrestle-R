@@ -87,11 +87,11 @@
   <br />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wrestle-R&amp;theme=github_dark&amp;title_color=39c5bb&amp;text_color=8b949e&amp;bg_color=0d1117&amp;border_color=30363d&amp;icon_color=39c5bb&amp;chart_color=39c5bb" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wrestle-R&amp;theme=github&amp;title_color=148f88&amp;text_color=57606a&amp;bg_color=ffffff&amp;border_color=d0d7de&amp;icon_color=148f88&amp;chart_color=148f88" alt="Russel's GitHub statistics" width="49%" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wrestle-R&amp;theme=github&amp;title_color=148f88&amp;text_color=57606a&amp;bg_color=ffffff&amp;border_color=d0d7de&amp;icon_color=148f88&amp;chart_color=148f88" alt="Russel's GitHub statistics" width="340" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wrestle-R&amp;theme=github_dark&amp;title_color=39c5bb&amp;text_color=8b949e&amp;bg_color=0d1117&amp;border_color=30363d&amp;icon_color=39c5bb&amp;chart_color=39c5bb" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wrestle-R&amp;theme=github&amp;title_color=148f88&amp;text_color=57606a&amp;bg_color=ffffff&amp;border_color=d0d7de&amp;icon_color=148f88&amp;chart_color=148f88" alt="Russel's top languages by repository" width="49%" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wrestle-R&amp;theme=github&amp;title_color=148f88&amp;text_color=57606a&amp;bg_color=ffffff&amp;border_color=d0d7de&amp;icon_color=148f88&amp;chart_color=148f88" alt="Russel's top languages by repository" width="340" />
   </picture>
 </div>
 
