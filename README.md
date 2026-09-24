@@ -45,17 +45,23 @@
 
 <br />
 
-## GitHub Stats  
+## GitHub Stats
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wrestle-R&theme=tokyonight" width="49%" height="195px"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wrestle-R&theme=tokyonight" width="49%" height="195px"/>
-</p>
-
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wrestle-R&theme=tokyonight" width="98%" />
-</p>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wrestle-R&amp;theme=github_dark&amp;name=Russel%20Daniel%20Paul" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=wrestle-R&amp;theme=github&amp;name=Russel%20Daniel%20Paul" alt="Russel Daniel Paul's GitHub contribution overview" width="98%" />
+  </picture>
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wrestle-R&amp;theme=github_dark" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wrestle-R&amp;theme=github" alt="Russel's GitHub statistics" width="49%" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wrestle-R&amp;theme=github_dark" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wrestle-R&amp;theme=github" alt="Russel's top languages by repository" width="49%" />
+  </picture>
+</div>
 
 
 
