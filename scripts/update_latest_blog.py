@@ -29,9 +29,8 @@ def latest_block(data):
             posts.append((date, title, link))
     if not posts:
         raise ValueError('No published blog posts found; keeping the existing README.')
-    date, title, link = max(posts, key=lambda post: post[0])
-    return (f'<a href="{escape(link, quote=True)}"><strong>{escape(title)}</strong> ↗</a>\n\n'
-            f'<sub>{date.strftime("%d %B %Y").lstrip("0")}</sub>')
+    _, title, link = max(posts, key=lambda post: post[0])
+    return f'<a href="{escape(link, quote=True)}"><strong>{escape(title)}</strong> ↗</a>'
 
 
 def main():

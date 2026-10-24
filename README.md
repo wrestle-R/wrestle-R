@@ -24,17 +24,36 @@
 
 ### A little about me
 
-I build things for the web, my Linux desktop, and whatever else I get curious about. Some turn into proper projects, some give me something to write about. Usually both.
-
-Away from the code, I run, play football, and write about life as it happens.
+I build things for the web, my Linux desktop, and whatever else I get curious about. Some turn into proper projects, some give me something to write about.
 
 ### Things I've been building
 
-| Project | What it does |
-| :--- | :--- |
-| **[ArchJet](https://github.com/wrestle-R/ArchJet)** | A local printer workspace for Linux, built for Arch and Hyprland. |
-| **[Vathavaran / Varte](https://github.com/wrestle-R/Vathavaran-Variables)** | Encrypted environment files across terminal, web, and mobile. |
-| **[My corner of the internet](https://russeldanielpaul.is-a.dev)** | Projects, writing, and the other things I want to put somewhere. |
+<table>
+<tr>
+<td width="50%" valign="top">
+<sub>DEVELOPER TOOLS</sub>
+<h3><a href="https://github.com/wrestle-R/multi-codex">MultiCodex ↗</a></h3>
+<p>Manage Codex accounts across the desktop app, VS Code, and CLI. Separate accounts, your default login stays yours.</p>
+</td>
+<td width="50%" valign="top">
+<sub>LINUX DESKTOP</sub>
+<h3><a href="https://github.com/wrestle-R/ArchJet">ArchJet ↗</a></h3>
+<p>A local printer workspace for Linux, built for Arch and Hyprland.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>ENVIRONMENT FILES</sub>
+<h3><a href="https://github.com/wrestle-R/Vathavaran-Variables">Vathavaran / Varte ↗</a></h3>
+<p>Encrypted environment files across terminal, web, and mobile.</p>
+</td>
+<td width="50%" valign="top">
+<sub>THE PERSONAL STUFF</sub>
+<h3><a href="https://russeldanielpaul.is-a.dev">My corner of the internet ↗</a></h3>
+<p>Projects, writing, and the other things I want to put somewhere.</p>
+</td>
+</tr>
+</table>
 
 **Usually working with** &nbsp; TypeScript · React · Python · Qt / QML · Linux
 
@@ -42,8 +61,6 @@ Away from the code, I run, play football, and write about life as it happens.
 
 <!-- LATEST-BLOG:START -->
 <a href="https://blogs.russeldanielpaul.is-a.dev/blog/yhprums-law/"><strong>Yhprum&#x27;s Law</strong> ↗</a>
-
-<sub>31 August 2026</sub>
 <!-- LATEST-BLOG:END -->
 
 [All posts ↗](https://blogs.russeldanielpaul.is-a.dev)
@@ -51,7 +68,7 @@ Away from the code, I run, play football, and write about life as it happens.
 ---
 
 <p align="center">
-  <a href="https://linkedin.com/in/russel-daniel-970b8a303">LinkedIn</a> &nbsp; · &nbsp;
-  <a href="https://x.com/Russeldp10">X</a> &nbsp; · &nbsp;
-  <a href="mailto:russeldanielpaul@gmail.com">Email</a>
+  <a href="https://linkedin.com/in/russel-daniel-970b8a303"><img src="assets/icons/linkedin.svg" width="18" height="18" alt="" /> LinkedIn</a> &nbsp; · &nbsp;
+  <a href="https://x.com/Russeldp10"><img src="assets/icons/x.svg" width="18" height="18" alt="" /> X</a> &nbsp; · &nbsp;
+  <a href="mailto:russeldanielpaul@gmail.com"><img src="assets/icons/email.svg" width="20" height="18" alt="" /> Email</a>
 </p>
