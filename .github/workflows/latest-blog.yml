@@ -1,9 +1,14 @@
-name: Latest blog post
+name: Daily profile update
 
 on:
   schedule:
     - cron: '23 6 * * *'
   workflow_dispatch:
+    inputs:
+      verify_only:
+        description: 'Run generation without committing changes'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -25,9 +30,15 @@ jobs:
           python-version: '3.12'
       - name: Refresh latest blog post
         run: python scripts/update_latest_blog.py
-      - name: Save when the post changes
+      - name: Refresh public account summary
+        run: python scripts/update_account_stats.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Save daily profile changes
+        if: ${{ inputs.verify_only != true }}
         run: |
-          if ! git diff --quiet -- README.md; then
-            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -am 'new blog boyss'
+          git add README.md assets/generated
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'profile updated'
             git push origin HEAD:main
           fi

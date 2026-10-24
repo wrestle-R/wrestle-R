@@ -1,5 +1,6 @@
 """Refresh only the latest-post block from Russel's public RSS feed."""
 from datetime import datetime, timezone
+from profile_cards import blog_svg, picture, save_variants
 from email.utils import parsedate_to_datetime
 from html import escape
 from pathlib import Path
@@ -12,7 +13,7 @@ START = '<!-- LATEST-BLOG:START -->'
 END = '<!-- LATEST-BLOG:END -->'
 
 
-def latest_block(data):
+def select_post(data):
     items = ET.fromstring(data).findall('./channel/item')
     now = datetime.now(timezone.utc)
     posts = []
@@ -26,11 +27,17 @@ def latest_block(data):
         if (title and url.scheme == 'https'
                 and url.hostname in {'blogs.russel.is-a.dev', 'blogs.russeldanielpaul.is-a.dev'}
                 and url.path.startswith('/blog/') and date <= now):
-            posts.append((date, title, link))
+            posts.append((date, title, link, (item.findtext('description') or '').strip()))
     if not posts:
         raise ValueError('No published blog posts found; keeping the existing README.')
-    _, title, link = max(posts, key=lambda post: post[0])
-    return f'<a href="{escape(link, quote=True)}"><strong>{escape(title)}</strong> ↗</a>'
+    _, title, link, description = max(posts, key=lambda post: post[0])
+    return {'title': title, 'link': link, 'description': description}
+
+
+def latest_block(post):
+    return (f'<a href="{escape(post["link"], quote=True)}">\n'
+            + picture('latest-blog', post['title'] + ' — read the latest blog post')
+            + '\n</a>')
 
 
 def main():
@@ -42,7 +49,9 @@ def main():
     _, after = rest.split(END)
     request = Request(FEED, headers={'User-Agent': 'wrestle-profile-readme/1.0'})
     with urlopen(request, timeout=30) as response:
-        block = latest_block(response.read(2_000_000))
+        post = select_post(response.read(2_000_000))
+    save_variants('latest-blog', post, blog_svg)
+    block = latest_block(post)
     updated = before + START + '\n' + block + '\n' + END + after
     if updated != content:
         readme.write_text(updated)

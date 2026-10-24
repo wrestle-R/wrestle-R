@@ -14,12 +14,6 @@
 
 <p align="center"><strong>Russel and his agents against the rest of the world</strong></p>
 
-<p align="center">
-  <a href="https://russeldanielpaul.is-a.dev">Portfolio</a> &nbsp; / &nbsp;
-  <a href="https://blogs.russeldanielpaul.is-a.dev">Blog</a> &nbsp; / &nbsp;
-  <a href="mailto:russeldanielpaul@gmail.com">Say hello</a>
-</p>
-
 ---
 
 ### A little about me
@@ -60,15 +54,33 @@ I build things for the web, my Linux desktop, and whatever else I get curious ab
 ### Latest from the blog
 
 <!-- LATEST-BLOG:START -->
-<a href="https://blogs.russeldanielpaul.is-a.dev/blog/yhprums-law/"><strong>Yhprum&#x27;s Law</strong> ↗</a>
+<a href="https://blogs.russeldanielpaul.is-a.dev/blog/yhprums-law/">
+<picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/generated/latest-blog-dark-mobile.svg" />
+  <source media="(max-width: 480px)" srcset="assets/generated/latest-blog-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/latest-blog-dark.svg" />
+  <img src="assets/generated/latest-blog-light.svg" alt="Yhprum&#x27;s Law — read the latest blog post" width="100%" />
+</picture>
+</a>
 <!-- LATEST-BLOG:END -->
 
-[All posts ↗](https://blogs.russeldanielpaul.is-a.dev)
+### GitHub activity
+
+<!-- ACCOUNT-STATS:START -->
+<a href="https://github.com/wrestle-R">
+<picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/generated/account-stats-dark-mobile.svg" />
+  <source media="(max-width: 480px)" srcset="assets/generated/account-stats-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/account-stats-dark.svg" />
+  <img src="assets/generated/account-stats-light.svg" alt="2578 contributions in the past year; 154 stars earned; 75 public PRs; 47 merged PRs; 1834 public commits in the past year; 61 public repos; 50 followers. Refreshed daily." width="100%" />
+</picture>
+</a>
+<!-- ACCOUNT-STATS:END -->
 
 ---
 
 <p align="center">
-  <a href="https://linkedin.com/in/russel-daniel-970b8a303"><img src="assets/icons/linkedin.svg" width="18" height="18" alt="" /> LinkedIn</a> &nbsp; · &nbsp;
-  <a href="https://x.com/Russeldp10"><img src="assets/icons/x.svg" width="18" height="18" alt="" /> X</a> &nbsp; · &nbsp;
-  <a href="mailto:russeldanielpaul@gmail.com"><img src="assets/icons/email.svg" width="20" height="18" alt="" /> Email</a>
+  <a href="https://linkedin.com/in/russel-daniel-970b8a303"><img src="assets/icons/linkedin.svg" width="26" height="26" alt="LinkedIn" /></a> &nbsp; &nbsp;
+  <a href="mailto:russeldanielpaul@gmail.com"><img src="assets/icons/email.svg" width="28" height="26" alt="Email" /></a>
+  <a href="mailto:russeldanielpaul@gmail.com">russeldanielpaul@gmail.com</a>
 </p>
