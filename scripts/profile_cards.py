@@ -31,19 +31,11 @@ def wrapped(value, columns, maximum):
 
 def blog_svg(post, theme, mobile=False):
     width = 360 if mobile else 780
-    _, _, ink, muted, accent = PALETTES[theme]
-    parts = [f'<g transform="translate(20 14)" fill="none" stroke="{muted}" stroke-width="1.5"><path d="M0 1h6l3 2 3-2h6v15h-6l-3 2-3-2H0zM9 3v15"/></g>',
-             text(48, 27, 'blogs.russeldanielpaul.is-a.dev', 12 if mobile else 13, muted)]
-    titles = wrapped(post['title'], 23 if mobile else 42, 3 if mobile else 2)
-    for i, line in enumerate(titles):
-        parts.append(text(20, 62+i*30, line, 25 if mobile else 29, ink, 650))
-    y = 62+(len(titles)-1)*30+28
-    description = wrapped(post['description'], 36 if mobile else 83, 3 if mobile else 2)
-    height = y + (len(description)-1)*21 + 46
-    for i, line in enumerate(description):
-        parts.append(text(20, y+i*21, line, 15 if mobile else 16, muted))
-    parts.extend([text(20, height-20, 'Read on my blog', 14, accent, 600),
-                  text(134, height-19, '→', 20, accent)])
+    _, _, ink, _, _ = PALETTES[theme]
+    titles = wrapped(post['title'], 23 if mobile else 44, 3 if mobile else 2)
+    height = 44+(len(titles)-1)*29+24
+    parts = [text(20, 44+i*29, line, 23 if mobile else 27, ink, 650)
+             for i, line in enumerate(titles)]
     return frame(width, height, theme, post['title'], parts)
 
 
