@@ -83,7 +83,7 @@ def stats_svg(stats, theme, mobile=False):
     divider = 255 if mobile else 252
     parts.append(f'<path d="M24 {divider}H{width-24}" stroke="{border}"/>')
     metrics = [(stats['stars'], 'Stars earned'), (stats['prs'], 'Pull requests'),
-               (stats['merged_prs'], 'Merged PRs'), (stats['commits'], 'Commits · past year'),
+               (stats['merged_prs'], 'Merged PRs'), (stats['commits'], 'Commits · all time'),
                (stats['repos'], 'Public repos'), (stats['followers'], 'Followers')]
     columns = 2 if mobile else 6
     cell = (width-48)/columns

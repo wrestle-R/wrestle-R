@@ -26,24 +26,24 @@ I build things for the web, my Linux desktop, and whatever else I get curious ab
 <tr>
 <td width="50%" valign="top">
 <sub>DEVELOPER TOOLS</sub>
-<h3><a href="https://github.com/wrestle-R/multi-codex">MultiCodex ↗</a></h3>
+<h3><a href="https://github.com/wrestle-R/multi-codex">MultiCodex</a></h3>
 <p>Manage Codex accounts across the desktop app, VS Code, and CLI. Separate accounts, your default login stays yours.</p>
 </td>
 <td width="50%" valign="top">
 <sub>LINUX DESKTOP</sub>
-<h3><a href="https://github.com/wrestle-R/ArchJet">ArchJet ↗</a></h3>
+<h3><a href="https://github.com/wrestle-R/ArchJet">ArchJet</a></h3>
 <p>A local printer workspace for Linux, built for Arch and Hyprland.</p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <sub>ENVIRONMENT FILES</sub>
-<h3><a href="https://github.com/wrestle-R/Vathavaran-Variables">Vathavaran / Varte ↗</a></h3>
+<h3><a href="https://github.com/wrestle-R/Vathavaran-Variables">Vathavaran / Varte</a></h3>
 <p>Encrypted environment files across terminal, web, and mobile.</p>
 </td>
 <td width="50%" valign="top">
 <sub>THE PERSONAL STUFF</sub>
-<h3><a href="https://russeldanielpaul.is-a.dev">My corner of the internet ↗</a></h3>
+<h3><a href="https://russeldanielpaul.is-a.dev">My corner of the internet</a></h3>
 <p>Projects, writing, and the other things I want to put somewhere.</p>
 </td>
 </tr>
@@ -72,7 +72,7 @@ I build things for the web, my Linux desktop, and whatever else I get curious ab
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/generated/account-stats-dark-mobile.svg" />
   <source media="(max-width: 480px)" srcset="assets/generated/account-stats-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/account-stats-dark.svg" />
-  <img src="assets/generated/account-stats-light.svg" alt="2586 contributions in the past year; 154 stars earned; 76 public PRs; 48 merged PRs; 1841 public commits in the past year; 61 public repos; 50 followers. Refreshed daily." width="100%" />
+  <img src="assets/generated/account-stats-light.svg" alt="2547 contributions in the past year; 154 stars earned; 76 public PRs; 48 merged PRs; 2575 public commits all time; 61 public repos; 50 followers. Refreshed daily." width="100%" />
 </picture>
 </a>
 <!-- ACCOUNT-STATS:END -->
@@ -80,7 +80,6 @@ I build things for the web, my Linux desktop, and whatever else I get curious ab
 ---
 
 <p align="center">
-  <a href="https://linkedin.com/in/russel-daniel-970b8a303"><img src="assets/icons/linkedin.svg" width="26" height="26" alt="LinkedIn" /></a> &nbsp; &nbsp;
-  <a href="mailto:russeldanielpaul@gmail.com"><img src="assets/icons/email.svg" width="28" height="26" alt="Email" /></a>
-  <a href="mailto:russeldanielpaul@gmail.com">russeldanielpaul@gmail.com</a>
+  <a href="https://linkedin.com/in/russel-daniel-970b8a303"><img src="assets/icons/linkedin.svg" width="26" height="26" alt="LinkedIn" /></a> &nbsp;
+  <a href="mailto:russeldanielpaul@gmail.com"><img src="assets/icons/email-contact.svg" width="236" height="26" alt="Email russeldanielpaul@gmail.com" /></a>
 </p>

@@ -3,12 +3,12 @@
     "stars": 154,
     "prs": 76,
     "merged_prs": 48,
-    "commits": 1841,
+    "commits": 2575,
     "repos": 61,
     "followers": 50
   },
   "calendar": {
-    "totalContributions": 2586,
+    "totalContributions": 2547,
     "weeks": [
       {
         "contributionDays": [
@@ -526,13 +526,13 @@
           },
           {
             "date": "2026-01-12",
-            "contributionCount": 3,
+            "contributionCount": 2,
             "contributionLevel": "FIRST_QUARTILE",
             "weekday": 1
           },
           {
             "date": "2026-01-13",
-            "contributionCount": 10,
+            "contributionCount": 11,
             "contributionLevel": "FIRST_QUARTILE",
             "weekday": 2
           },
@@ -1056,13 +1056,13 @@
           },
           {
             "date": "2026-04-03",
-            "contributionCount": 8,
+            "contributionCount": 7,
             "contributionLevel": "FIRST_QUARTILE",
             "weekday": 5
           },
           {
             "date": "2026-04-04",
-            "contributionCount": 8,
+            "contributionCount": 9,
             "contributionLevel": "FIRST_QUARTILE",
             "weekday": 6
           }
@@ -2409,6 +2409,12 @@
             "contributionCount": 7,
             "contributionLevel": "FIRST_QUARTILE",
             "weekday": 0
+          },
+          {
+            "date": "2026-10-26",
+            "contributionCount": 1,
+            "contributionLevel": "FIRST_QUARTILE",
+            "weekday": 1
           }
         ]
       }
@@ -2418,7 +2424,7 @@
     "stars": "Stars earned by owned public non-fork repositories",
     "prs": "Public pull requests authored, all time",
     "merged_prs": "Public authored pull requests merged, all time",
-    "commits": "Public GitHub contribution-calendar commits, past 12 months",
+    "commits": "Public GitHub contribution-calendar commits, summed across every calendar year since account creation",
     "repos": "Owned public repositories, including forks",
     "followers": "Current followers"
   }
