@@ -3,12 +3,12 @@
     "stars": 159,
     "prs": 77,
     "merged_prs": 49,
-    "commits": 2307,
+    "contributions": 3484,
     "repos": 63,
     "followers": 50
   },
   "calendar": {
-    "totalContributions": 2325,
+    "totalContributions": 2326,
     "weeks": [
       {
         "contributionDays": [
@@ -2406,7 +2406,7 @@
         "contributionDays": [
           {
             "date": "2026-11-08",
-            "contributionCount": 8,
+            "contributionCount": 9,
             "contributionLevel": "FIRST_QUARTILE",
             "weekday": 0
           }
@@ -2418,7 +2418,7 @@
     "stars": "Stars earned by owned public non-fork repositories",
     "prs": "Public pull requests authored, all time",
     "merged_prs": "Public authored pull requests merged, all time",
-    "commits": "Public GitHub contribution-calendar commits, summed across every calendar year since account creation",
+    "contributions": "GitHub contributions including shared private activity, summed across every calendar year since account creation",
     "repos": "Owned public repositories, including forks",
     "followers": "Current followers"
   }

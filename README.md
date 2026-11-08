@@ -72,11 +72,11 @@ I build things for the web, my Linux desktop, and whatever else I get curious ab
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/generated/account-stats-dark-mobile.svg" />
   <source media="(max-width: 480px)" srcset="assets/generated/account-stats-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/account-stats-dark.svg" />
-  <img src="assets/generated/account-stats-light.svg" alt="2325 contributions in the past year; 159 stars earned; 77 public PRs; 49 merged PRs; 2307 public commits all time; 63 public repos; 50 followers. Refreshed daily." width="100%" />
+  <img src="assets/generated/account-stats-light.svg" alt="2326 contributions in the past year; 159 stars earned; 77 public PRs; 49 merged PRs; 3484 contributions all time (including private activity); 63 public repos; 50 followers. Refreshed daily." width="100%" />
 </picture>
 </a>
 
-<sub>The commit total counts public commits across all years. The graph shows contributions from the past year, including PRs, issues, and other activity.</sub>
+<sub>Contribution totals include public and private activity shared on my GitHub profile. The graph covers the past year; the all-time total covers every year since I joined GitHub.</sub>
 <!-- ACCOUNT-STATS:END -->
 
 ---

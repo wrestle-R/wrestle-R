@@ -1,4 +1,4 @@
-"""Snapshot public GitHub activity; errors preserve the last successful card."""
+"""Snapshot GitHub activity, including shared private contribution totals; errors preserve the last successful card."""
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -46,21 +46,20 @@ def fetch_stats():
     calendar = user['contributionsCollection']['contributionCalendar']
     return {'calendar': calendar, 'stars': stars, 'prs': data['opened']['issueCount'],
             'merged_prs': data['merged']['issueCount'],
-            'commits': fetch_all_time_commits(user['createdAt']),
+            'contributions': fetch_all_time_contributions(user['createdAt']),
             'repos': repos['totalCount'], 'followers': user['followers']['totalCount']}
 
 
-def fetch_all_time_commits(created_at):
+def fetch_all_time_contributions(created_at):
     # GitHub accepts at most one year per contributionsCollection request.
-    # Sum public commit contributions across non-overlapping calendar years.
+    # Calendar totals include public activity and the private activity shared on the profile.
+    # Sum non-overlapping calendar years without exposing private repository details.
     now = datetime.now(timezone.utc)
     total = 0
     query = '''query($from:DateTime!,$to:DateTime!) {
       user(login:"wrestle-R") {
         contributionsCollection(from:$from,to:$to) {
-          commitContributionsByRepository(maxRepositories:100) {
-            repository { isPrivate } contributions { totalCount }
-          }
+          contributionCalendar { totalContributions }
         }
       }
     }'''
@@ -72,12 +71,9 @@ def fetch_all_time_commits(created_at):
             'gh', 'api', 'graphql', '-f', 'query='+query,
             '-f', 'from='+start, '-f', 'to='+end], text=True))
         if result.get('errors'):
-            raise ValueError('GitHub returned incomplete all-time commit counts.')
-        repos = result['data']['user']['contributionsCollection']['commitContributionsByRepository']
-        if len(repos) == 100:
-            raise ValueError(f'Commit repository limit reached in {year}; refusing a partial count.')
-        total += sum(repo['contributions']['totalCount'] for repo in repos
-                     if not repo['repository']['isPrivate'])
+            raise ValueError('GitHub returned incomplete all-time contribution counts.')
+        calendar = result['data']['user']['contributionsCollection']['contributionCalendar']
+        total += calendar['totalContributions']
     return total
 
 
@@ -93,22 +89,22 @@ def main():
         'stars': 'Stars earned by owned public non-fork repositories',
         'prs': 'Public pull requests authored, all time',
         'merged_prs': 'Public authored pull requests merged, all time',
-        'commits': 'Public GitHub contribution-calendar commits, summed across every calendar year since account creation',
+        'contributions': 'GitHub contributions including shared private activity, summed across every calendar year since account creation',
         'repos': 'Owned public repositories, including forks',
         'followers': 'Current followers'}}
     (ASSETS / 'account-stats.json').write_text(json.dumps(snapshot, indent=2)+'\n')
     alt = (f'{stats["calendar"]["totalContributions"]} contributions in the past year; {stats["stars"]} stars earned; {stats["prs"]} public PRs; '
-           f'{stats["merged_prs"]} merged PRs; {stats["commits"]} public commits all time; '
+           f'{stats["merged_prs"]} merged PRs; {stats["contributions"]} contributions all time (including private activity); '
            f'{stats["repos"]} public repos; {stats["followers"]} followers. Refreshed daily.')
     block = ('<a href="https://github.com/wrestle-R">\n'+picture('account-stats', alt)+'\n</a>\n\n'
-             '<sub>The commit total counts public commits across all years. The graph shows contributions '
-             'from the past year, including PRs, issues, and other activity.</sub>')
+             '<sub>Contribution totals include public and private activity shared on my GitHub profile. '
+             'The graph covers the past year; the all-time total covers every year since I joined GitHub.</sub>')
     before, rest = content.split(start)
     _, after = rest.split(end)
     updated = before+start+'\n'+block+'\n'+end+after
     if content != updated:
         path.write_text(updated)
-    print('Public account summary refreshed.')
+    print('Account summary refreshed, including private contribution totals.')
 
 
 if __name__ == '__main__':

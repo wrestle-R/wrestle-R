@@ -30,7 +30,7 @@ jobs:
           python-version: '3.12'
       - name: Refresh latest blog post
         run: python scripts/update_latest_blog.py
-      - name: Refresh public account summary
+      - name: Refresh account summary
         run: python scripts/update_account_stats.py
         env:
           GH_TOKEN: ${{ github.token }}
