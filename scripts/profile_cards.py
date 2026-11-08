@@ -83,7 +83,7 @@ def stats_svg(stats, theme, mobile=False):
     divider = 255 if mobile else 252
     parts.append(f'<path d="M24 {divider}H{width-24}" stroke="{border}"/>')
     metrics = [(stats['stars'], 'Stars earned'), (stats['prs'], 'Pull requests'),
-               (stats['merged_prs'], 'Merged PRs'), (stats['commits'], 'Commits · all time'),
+               (stats['merged_prs'], 'Merged PRs'), (stats['commits'], 'Public commits'),
                (stats['repos'], 'Public repos'), (stats['followers'], 'Followers')]
     columns = 2 if mobile else 6
     cell = (width-48)/columns
@@ -91,6 +91,8 @@ def stats_svg(stats, theme, mobile=False):
         x, y = 24+(i % columns)*cell, (290 if mobile else 286)+(i//columns)*57
         parts.extend([text(x, y, f'{value:,}', 23, ink, 600),
                       text(x, y+20, label, 12 if mobile else 11, muted)])
+        if label == 'Public commits':
+            parts.append(text(x, y+34, 'All time', 10, muted))
     parts.append(text(24, height-15, 'Public GitHub activity · updated daily', 11, muted))
     return frame(width, height, theme, 'Weekly GitHub contributions and account summary', parts)
 

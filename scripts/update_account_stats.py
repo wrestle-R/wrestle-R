@@ -100,7 +100,9 @@ def main():
     alt = (f'{stats["calendar"]["totalContributions"]} contributions in the past year; {stats["stars"]} stars earned; {stats["prs"]} public PRs; '
            f'{stats["merged_prs"]} merged PRs; {stats["commits"]} public commits all time; '
            f'{stats["repos"]} public repos; {stats["followers"]} followers. Refreshed daily.')
-    block = '<a href="https://github.com/wrestle-R">\n'+picture('account-stats', alt)+'\n</a>'
+    block = ('<a href="https://github.com/wrestle-R">\n'+picture('account-stats', alt)+'\n</a>\n\n'
+             '<sub>The commit total counts public commits across all years. The graph shows contributions '
+             'from the past year, including PRs, issues, and other activity.</sub>')
     before, rest = content.split(start)
     _, after = rest.split(end)
     updated = before+start+'\n'+block+'\n'+end+after
