@@ -54,12 +54,12 @@ I build things for the web, my Linux desktop, and whatever else I get curious ab
 ### Latest from the blog
 
 <!-- LATEST-BLOG:START -->
-<a href="https://blogs.russeldanielpaul.is-a.dev/blog/yhprums-law/">
+<a href="https://blogs.russeldanielpaul.is-a.dev/blog/we-fell-in-code-in-october/">
 <picture>
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/generated/latest-blog-dark-mobile.svg" />
   <source media="(max-width: 480px)" srcset="assets/generated/latest-blog-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/latest-blog-dark.svg" />
-  <img src="assets/generated/latest-blog-light.svg" alt="Yhprum&#x27;s Law — read the latest blog post" width="100%" />
+  <img src="assets/generated/latest-blog-light.svg" alt="We fell in code in October — read the latest blog post" width="100%" />
 </picture>
 </a>
 <!-- LATEST-BLOG:END -->
@@ -72,7 +72,7 @@ I build things for the web, my Linux desktop, and whatever else I get curious ab
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/generated/account-stats-dark-mobile.svg" />
   <source media="(max-width: 480px)" srcset="assets/generated/account-stats-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/account-stats-dark.svg" />
-  <img src="assets/generated/account-stats-light.svg" alt="2363 contributions in the past year; 170 stars earned; 77 public PRs; 49 merged PRs; 3647 contributions all time (including private activity); 72 public repos; 51 followers. Refreshed daily." width="100%" />
+  <img src="assets/generated/account-stats-light.svg" alt="2416 contributions in the past year; 172 stars earned; 77 public PRs; 49 merged PRs; 3700 contributions all time (including private activity); 72 public repos; 51 followers. Refreshed daily." width="100%" />
 </picture>
 </a>
 
