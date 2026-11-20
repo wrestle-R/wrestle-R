@@ -77,19 +77,6 @@ def fetch_all_time_contributions(created_at):
     return total
 
 
-def weekly_breakdown(calendar):
-    rows = []
-    for week in reversed(calendar['weeks']):
-        days = week['contributionDays']
-        first, last = days[0]['date'], days[-1]['date']
-        count = sum(day['contributionCount'] for day in days)
-        url = f'https://github.com/wrestle-R?tab=overview&from={first}&to={last}'
-        rows.append(f'| [{first} to {last}]({url}) | {count:,} |')
-    return ('<details>\n<summary>Explore weekly contribution counts</summary>\n\n'
-            'Select a date range to open that week on GitHub. The first and current weeks may be partial.\n\n'
-            '| Date range | Contributions |\n| --- | ---: |\n' + '\n'.join(rows) + '\n\n</details>')
-
-
 def main():
     path = ROOT / 'README.md'
     content = path.read_text()
@@ -111,8 +98,7 @@ def main():
            f'{stats["repos"]} public repos; {stats["followers"]} followers. Refreshed daily.')
     block = ('<a href="https://github.com/wrestle-R">\n'+picture('account-stats', alt)+'\n</a>\n\n'
              '<sub>Contribution totals include public and private activity shared on my GitHub profile. '
-             'The graph covers the past year; the all-time total covers every year since I joined GitHub.</sub>\n\n'
-             + weekly_breakdown(stats['calendar']))
+             'The graph covers the past year; the all-time total covers every year since I joined GitHub.</sub>')
     before, rest = content.split(start)
     _, after = rest.split(end)
     updated = before+start+'\n'+block+'\n'+end+after
