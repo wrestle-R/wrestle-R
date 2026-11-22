@@ -26,7 +26,7 @@ I build things for the web, my Linux desktop, and whatever else I get curious ab
 <tr>
 <td width="50%" valign="top">
 <sub>PHONE + LAPTOP</sub>
-<h3><a href="https://github.com/wrestle-R/Pingora">Pingora</a></h3>
+<h3><a href="https://github.com/wrestle-R/Pingly">Pingly</a></h3>
 <p>An Android companion for my Linux laptop. Notifications, clipboard, files and home screen widgets.</p>
 </td>
 <td width="50%" valign="top">
