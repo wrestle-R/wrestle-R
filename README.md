@@ -72,7 +72,7 @@ I build things for the web, my Linux desktop, and whatever else I get curious ab
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/generated/account-stats-dark-mobile.svg" />
   <source media="(max-width: 480px)" srcset="assets/generated/account-stats-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/account-stats-dark.svg" />
-  <img src="assets/generated/account-stats-light.svg" alt="2515 contributions in the past year; 174 stars earned; 78 public PRs; 50 merged PRs; 3799 contributions all time (including private activity); 73 public repos; 51 followers. Refreshed daily." width="100%" />
+  <img src="assets/generated/account-stats-light.svg" alt="2477 contributions in the past year; 174 stars earned; 84 public PRs; 54 merged PRs; 3814 contributions all time (including private activity); 77 public repos; 52 followers. Refreshed daily." width="100%" />
 </picture>
 </a>
 
